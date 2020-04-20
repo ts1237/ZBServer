@@ -1,0 +1,259 @@
+/*===================about css================*/
+.pw{
+    width: 100%;
+    padding:30px 0;
+}
+.zb_about .l_ab{
+    float:left;
+    width: 30%;
+    padding:5px 15px;
+}
+.zb_about .l_ab .title{
+    border-bottom:1px solid #ccc;
+    padding:5px;
+    font-size:20px;
+}
+.zb_about .l_ab .title span{
+    color:#2ebb5f;
+}
+.zb_about .l_ab .title i{
+    font-size:16px;
+    margin-left:10px;
+    color:#ddd;
+}
+.zb_about .l_ab .content{
+    padding-top:10px;
+    color:#333;
+    line-height:1.8em;
+    text-align:justify;
+
+}
+.zb_about .l_ab .content img{
+    max-width: 100px;
+    float:left;
+    margin-right:10px;
+}
+.zb_about .l_ab .content span{
+    padding:10px 20px 5px;
+    float: right;
+}
+.zb_about .l_ab .content span a{
+    display: block;
+    padding:5px;
+    color:#2ebb5f;
+}
+.zb_about .l_ab .content span a:hover{
+    color:#2ebb5f;
+}
+.zb_about .c_ab{
+    float:left;
+    width: 50%;
+    padding:20px 15px 5px;
+}
+.zb_about .c_ab .ab_video{
+    position:relative;
+    width: 100%;
+}
+.zb_about .c_ab .mask {
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+}
+.zb_about .c_ab .mask img{
+    width: 100%;
+    height:auto;
+}
+.zb_about .c_ab .mask span{
+    display:block;
+    position:absolute;
+    top:50%;
+    left: 50%;
+
+}
+.zb_about .c_ab .mask .move{
+    width: 60px;
+    height: 60px;
+    background:url("../images/ico-play.png") no-repeat center / 60px 60px;
+    margin-left: -30px;
+    margin-top: -50px;
+    cursor:pointer;
+
+}
+.zb_about .c_ab .mask .logo{
+    width: 170px;
+    height: 40px;
+    background:url("../images/v-logo.png") no-repeat center;
+    margin-left: -85px;
+    margin-top: 20px;
+
+}
+.zb_about .r_ab{
+    margin-top:20px;
+    float:left;
+    width: 20%;
+    overflow:hidden;
+    border-radius:5px;
+    cursor:pointer;
+}
+.zb_about .r_ab img:hover{
+    transform: scale3d(1.1,1.1,1);
+    transition: transform 0.5s;
+}
+
+/*==========================case     css==========================*/
+.zb_case{
+    background:#e5f5f0;
+}
+
+.zb_case .title,
+.zb_service .title,
+.zb_certificate .title{
+    width: 100%;
+    text-align:center;
+    font-size:24px;
+    padding:10px 0 5px;
+}
+.zb_case .title span,
+.zb_service .title span,
+.zb_certificate .title span{
+    color:#2ebb5f;
+}
+.zb_case .title i,
+.zb_service .title i,
+.zb_certificate .title i{
+    display:block;
+    font-size:14px;
+    color:#ccc;
+}
+.zb_case .list li{
+    float:left;
+    width: 25%;
+    padding:10px 20px;
+    text-align:center;
+}
+.zb_case .list li a .pic{
+    width: 100%;
+    overflow: hidden;
+}
+.zb_case .list li a p{
+    margin:10px 0;
+
+}
+.zb_case .list li a:hover img{
+    transform: scale3d(1.1,1.1,1);
+    transition: transform 0.5s;
+}
+/*===========================service css===========================*/
+.zb_service{
+    background:url("../images/mod-bg.png") no-repeat top;
+
+}
+.zb_service .list li{
+    float: left;
+    width: 20%;
+    padding: 25px 0px;
+    text-align: center;
+
+}
+.zb_service .boxy{
+    margin: 0 auto;
+    width: 160px;
+    height: 160px;
+    border: #2ebb5f 2px solid;
+    background-color: #2ebb5f;
+    color: #f1fdf5;
+    border-radius: 50%;
+    position: relative;
+    line-height:160px;
+    font-size: 18px;
+
+}
+
+.zb_service .list li .boxy:hover{
+    border: #2ebb5f 2px solid;
+    background-color: #f1fdf5;
+    color: #2ebb5f;
+}
+/*===============================certificate   css===============================*/
+.zb_certificate{
+    background-color:#fff;
+}
+.zb_certificate .list li{
+    float:left;
+    width: 25%;
+    text-align: center;
+    overflow:hidden;
+    padding:5px 15px;
+}
+.zb_certificate .list li .picBox{
+    border:1px solid #eee;
+    padding:3px 5px;
+    width: 100%;
+    overflow:hidden;
+    border-radius:5px;
+
+}
+.zb_certificate .list li a p {
+    padding:5px 0;
+}
+
+.zb_certificate .list li a:hover img{
+    transform: scale3d(1.1,1.1,1);
+    transition: transform 0.5s;
+}
+/*================================news css================================*/
+.zb_news{
+    background:url("../images/mod-bg.png") no-repeat top;
+}
+.zb_news .main li{
+    float:left;
+    width: 50%;
+    height: 150px;
+    padding:10px;
+}
+.zb_news .main li h2{
+    padding:10px;
+    border-bottom:1px solid #ccc;
+    font-size:18px;
+    color:#333;
+    position:relative;
+}
+.zb_news .main li h2 span{
+    color:#2ebb5f;
+}
+.zb_news .main li h2 i{
+    font-size:14px;
+    color:#999;
+    padding-left:10px;
+}
+.zb_news .main li h2 i a{
+    color:#999;
+}
+.zb_news .main li h2 .r_more{
+    position:absolute;
+    right:10px;
+    top:10px;
+}
+.zb_news .main li > a{
+    display:block;
+    width: 100%;
+    height: 50px;
+    background:#fff url("../images/d.png") no-repeat 10px;
+    border-radius:5px;
+    margin:10px 0;
+    line-height:50px;
+    padding-left:20px;
+    position:relative;
+}
+.zb_news .main li > a > h3{
+    color:#999;
+}
+.zb_news .main li > a > span{
+    position:absolute;
+    top:0;
+    right:10px;
+}
+.zb_news .main li > a:hover > span{
+    color:#999;
+}
